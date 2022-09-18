@@ -6,6 +6,8 @@
   "author": "xn <280145668@qq.com>",
   "private": true,
   "scripts": {
+    "start":"quasar dev -m capacitor -T android",
+    "create": "gh repo create pan --public --source=. --remote=origin",
     "c": "npm cache clean --force",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
